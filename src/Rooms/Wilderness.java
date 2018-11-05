@@ -1,31 +1,33 @@
 package Rooms;
 
+import Game.Runner;
 import People.Person;
 
-public class Room {
+public class Wilderness {
 	Person occupant;
 	int xLoc,yLoc;
 	
-	public Room(int x, int y)
+	public Wilderness(int x, int y)
 	{
 		xLoc = x;
 		yLoc = y;
 	}
 
 	/**
-	 * Method controls the results when a person enters this room.
+	 * Method controls the results when a person enters
 	 * @param x the Person entering
 	 */
 	public void enterRoom(Person x)
 	{
-		System.out.println("You enter a plain old room");
+		System.out.println("You walk through the wild.");
 		occupant = x;
 		x.setxLoc(this.xLoc);
 		x.setyLoc(this.yLoc);
+		Runner.gameOn();
 	}
 
 	/**
-	 * Removes the player from the room.
+	 * Removes the player from the spot
 	 * @param x
 	 */
 	public void leaveRoom(Person x)

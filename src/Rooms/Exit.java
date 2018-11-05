@@ -3,10 +3,11 @@ package Rooms;
 import Game.Runner;
 import People.Person;
 
-public class Exit extends Room
+public class Exit extends Wilderness
 {
 
-	public Exit(int x, int y) {
+	public Exit(int x, int y)
+	{
 		super(x, y);
 
 	}
