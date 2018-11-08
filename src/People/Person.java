@@ -12,7 +12,23 @@ public class Person
 	int amour = 20;
 	int speed = 1;
 	int attack = 5;
-
+	public void setHealth(int Health)
+	{
+		this.health = Health;
+	}
+	public void setAmour(int Amour)
+	{
+		this.amour = Amour;
+	}
+	public void setSpeed(int Speed)
+	{
+		this.speed = Speed;
+	}
+	public void setAttack(int Attack)
+	{
+		this.attack = Attack;
+	}
+}
 
 	public int getxLoc() {
 		return xLoc;

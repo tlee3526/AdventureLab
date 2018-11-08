@@ -6,4 +6,5 @@ public class Chest extends Wilderness
     {
         super(x, y);
     }
+
 }
