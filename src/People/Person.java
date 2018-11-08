@@ -3,10 +3,15 @@ package People;
 /**
  * Person represents the player as they move through the game.
  */
-public class Person {
+public class Person
+{
 	String firstName;
 	String familyName;
 	int xLoc, yLoc;
+	int health = 100;
+	int amour = 20;
+	int speed = 1;
+	int attack = 5;
 
 
 	public int getxLoc() {

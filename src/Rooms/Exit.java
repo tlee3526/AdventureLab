@@ -9,7 +9,6 @@ public class Exit extends Wilderness
 	public Exit(int x, int y)
 	{
 		super(x, y);
-
 	}
 
 	/**
