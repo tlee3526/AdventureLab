@@ -1,9 +1,11 @@
 package Rooms;
 
+import Game.Building;
 import Game.Runner;
 import People.Person;
 
-public class Wilderness {
+public class Wilderness
+{
 	Person occupant;
 	int xLoc,yLoc;
 	
@@ -23,7 +25,7 @@ public class Wilderness {
 		occupant = x;
 		x.setxLoc(this.xLoc);
 		x.setyLoc(this.yLoc);
-		Runner.gameOn();
+		Building.gameOff();
 	}
 
 	/**
@@ -34,5 +36,4 @@ public class Wilderness {
 	{
 		occupant = null;
 	}
-	
 }

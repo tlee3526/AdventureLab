@@ -2,6 +2,6 @@ package People;
 
 public class Enemy
 {
-    int health = 20;
-    int attack = 5;
+    int health1 = 20;
+    int attack1 = 5;
 }
